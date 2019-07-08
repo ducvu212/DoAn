@@ -1,0 +1,8 @@
+Executable : /home/vuminhduc/Android/Sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+--build
+/home/vuminhduc/Downloads/DucImageReconize/face-recognizer-android-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a
+--target
+jnilibsvm
+jvmArgs : 
+

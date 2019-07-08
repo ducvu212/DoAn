@@ -1,0 +1,23 @@
+# ninja log v5
+0	98	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/imageutils_jni.cc.o	d234889f1e593930
+1	433	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/image_neon.cc.o	63c95beb3df0672b
+434	467	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/time_log.cc.o	d1775560a46654e5
+1	608	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/frame_pair.cc.o	db6ae97cb2da3d07
+1	609	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/keypoint_detector.cc.o	e28ebb17a0e878c2
+609	688	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/rgb2yuv.cc.o	20cd30f70c3dd246
+688	804	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/yuv2rgb.cc.o	f0561772097e7225
+2	810	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/logging.cc.o	9c4f7bc389b8018d
+2	820	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/object_detector.cc.o	ae6cc1d8d46f966a
+98	842	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/optical_flow.cc.o	e7e2903aeb364124
+2	917	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/object_tracker_jni.cc.o	9920fb3aecbf7b07
+608	1130	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/utils_neon.cc.o	a31bc9f049173526
+467	1155	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/tracked_object.cc.o	51763accc2fe844
+2	1284	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/object_tracker.cc.o	b93c8c19d9e5f863
+1284	1594	0	/home/vuminhduc/Downloads/DucImageReconize/face-recognizer-android-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libtensorflow_demo.so	a000209e9933ca99
+1	106	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/libsvm/svm-scale.cpp.o	5f2927f318662e5d
+0	518	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/libsvm/svm-predict.cpp.o	c759a803a47900ed
+1	560	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/libsvm/svm-train.cpp.o	6fa11b6a6b1ce88f
+0	577	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/jnilibsvm.cpp.o	846507e221ea7440
+0	624	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/common.cpp.o	62412f82df921c
+1	657	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/libsvm/svm.cpp.o	9e872901c3746841
+657	717	0	/home/vuminhduc/Downloads/DucImageReconize/face-recognizer-android-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libjnilibsvm.so	bd6cb982f8dfbf44
