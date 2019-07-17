@@ -16,7 +16,6 @@
 
 package pp.facerecognizer;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -62,7 +61,6 @@ import java.util.concurrent.TimeUnit;
 
 import pp.facerecognizer.env.Logger;
 
-@SuppressLint("ValidFragment")
 public class CameraConnectionFragment extends Fragment {
     private static final Logger LOGGER = new Logger();
 
@@ -109,8 +107,7 @@ public class CameraConnectionFragment extends Fragment {
                 }
 
                 @Override
-                public void onSurfaceTextureUpdated(final SurfaceTexture texture) {
-                }
+                public void onSurfaceTextureUpdated(final SurfaceTexture texture) {}
             };
 
     /**
@@ -219,9 +216,7 @@ public class CameraConnectionFragment extends Fragment {
      */
     private final OnImageAvailableListener imageListener;
 
-    /**
-     * The input size in pixels desired by TensorFlow (width and height of a square bitmap).
-     */
+    /** The input size in pixels desired by TensorFlow (width and height of a square bitmap). */
     private final Size inputSize;
 
     /**
@@ -261,8 +256,8 @@ public class CameraConnectionFragment extends Fragment {
      * width and height are at least as large as the minimum of both, or an exact match if possible.
      *
      * @param choices The list of sizes that the camera supports for the intended output class
-     * @param width   The minimum desired width
-     * @param height  The minimum desired height
+     * @param width The minimum desired width
+     * @param height The minimum desired height
      * @return The optimal {@code Size}, or an arbitrary one if none were big enough
      */
     protected static Size chooseOptimalSize(final Size[] choices, final int width, final int height) {
@@ -481,15 +476,13 @@ public class CameraConnectionFragment extends Fragment {
                 public void onCaptureProgressed(
                         final CameraCaptureSession session,
                         final CaptureRequest request,
-                        final CaptureResult partialResult) {
-                }
+                        final CaptureResult partialResult) {}
 
                 @Override
                 public void onCaptureCompleted(
                         final CameraCaptureSession session,
                         final CaptureRequest request,
-                        final TotalCaptureResult result) {
-                }
+                        final TotalCaptureResult result) {}
             };
 
     /**

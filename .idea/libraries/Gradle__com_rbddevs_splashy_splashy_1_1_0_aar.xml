@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.rbddevs.splashy:splashy:1.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8da7d4a0564e0d5be3bf0899ce0eb695/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8da7d4a0564e0d5be3bf0899ce0eb695/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rbddevs.splashy/splashy/1.1.0/df06f40aac0ddd52887fa93d1660aa90b3443eda/splashy-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

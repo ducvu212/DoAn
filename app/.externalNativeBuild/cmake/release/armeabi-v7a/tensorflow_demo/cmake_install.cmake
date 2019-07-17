@@ -1,4 +1,4 @@
-# Install script for directory: /home/vuminhduc/Downloads/DucImageReconize/face-recognizer-android-master/app/src/main/jni/tensorflow_demo
+# Install script for directory: /home/vuminhduc/Desktop/DoAn/app/src/main/jni/tensorflow_demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

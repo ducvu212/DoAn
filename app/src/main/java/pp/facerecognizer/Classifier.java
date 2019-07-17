@@ -24,7 +24,6 @@ import android.graphics.Rect;
 import android.graphics.RectF;
 import android.net.Uri;
 import android.os.ParcelFileDescriptor;
-import android.util.Log;
 
 import java.io.FileDescriptor;
 import java.nio.FloatBuffer;
@@ -37,8 +36,6 @@ import pp.facerecognizer.env.FileUtils;
 import pp.facerecognizer.wrapper.FaceNet;
 import pp.facerecognizer.wrapper.LibSVM;
 import pp.facerecognizer.wrapper.MTCNN;
-
-import static android.content.ContentValues.TAG;
 
 /**
  * Generic interface for interacting with different recognition engines.
@@ -64,9 +61,7 @@ public class Classifier {
          */
         private final Float confidence;
 
-        /**
-         * Optional location within the source image for the location of the recognized object.
-         */
+        /** Optional location within the source image for the location of the recognized object. */
         private RectF location;
 
         Recognition(
@@ -129,12 +124,11 @@ public class Classifier {
 
     private List<String> classNames;
 
-    private Classifier() {
-    }
+    private Classifier() {}
 
-    static Classifier getInstance(AssetManager assetManager,
-                                  int inputHeight,
-                                  int inputWidth) throws Exception {
+    static Classifier getInstance (AssetManager assetManager,
+                                   int inputHeight,
+                                   int inputWidth) throws Exception {
         if (classifier != null) return classifier;
 
         classifier = new Classifier();
@@ -179,10 +173,9 @@ public class Classifier {
                 Float prob = pair.second;
 
                 String name;
-                if (prob > 0.45) {
+                if (prob > 0.5)
                     name = classNames.get(pair.first);
-                    Log.d(TAG, "recognizeImage: " + classNames.get(pair.first));
-                } else
+                else
                     name = "Unknown";
 
                 Recognition result =
@@ -241,7 +234,7 @@ public class Classifier {
         return bitmap;
     }
 
-    void enableStatLogging(final boolean debug) {
+    void enableStatLogging(final boolean debug){
     }
 
     String getStatString() {

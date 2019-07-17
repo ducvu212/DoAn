@@ -1,4 +1,4 @@
-# Install script for directory: /home/vuminhduc/Downloads/DucImageReconize/face-recognizer-android-master/app/src/main/jni
+# Install script for directory: /home/vuminhduc/Desktop/DoAn/app/src/main/jni
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/vuminhduc/Downloads/DucImageReconize/face-recognizer-android-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a/tensorflow_demo/cmake_install.cmake")
-  include("/home/vuminhduc/Downloads/DucImageReconize/face-recognizer-android-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a/jnilibsvm/cmake_install.cmake")
+  include("/home/vuminhduc/Desktop/DoAn/app/.externalNativeBuild/cmake/debug/armeabi-v7a/tensorflow_demo/cmake_install.cmake")
+  include("/home/vuminhduc/Desktop/DoAn/app/.externalNativeBuild/cmake/debug/armeabi-v7a/jnilibsvm/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vuminhduc/Downloads/DucImageReconize/face-recognizer-android-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vuminhduc/Desktop/DoAn/app/.externalNativeBuild/cmake/debug/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
