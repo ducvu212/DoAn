@@ -1,0 +1,169 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/CMakeLists.txt",
+		"/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/CMakeLists.txt",
+		"/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/jnilibsvm/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/tran.ngoc.nam/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cc", "cpp" ],
+	"libraries" : 
+	{
+		"jnilibsvm-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "jnilibsvm",
+			"buildCommand" : "/Users/tran.ngoc.nam/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a --target jnilibsvm",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djnilibsvm_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fno-exceptions -frtti -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/jnilibsvm/common.cpp",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djnilibsvm_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fno-exceptions -frtti -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/jnilibsvm/jnilibsvm.cpp",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djnilibsvm_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fno-exceptions -frtti -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/jnilibsvm/libsvm/svm-predict.cpp",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djnilibsvm_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fno-exceptions -frtti -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/jnilibsvm/libsvm/svm-scale.cpp",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djnilibsvm_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fno-exceptions -frtti -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/jnilibsvm/libsvm/svm-train.cpp",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djnilibsvm_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fno-exceptions -frtti -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/jnilibsvm/libsvm/svm.cpp",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/build/intermediates/cmake/release/obj/armeabi-v7a/libjnilibsvm.so",
+			"toolchain" : "16740414696521204118"
+		},
+		"tensorflow_demo-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "tensorflow_demo",
+			"buildCommand" : "/Users/tran.ngoc.nam/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a --target tensorflow_demo",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/imageutils_jni.cc",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/object_tracking/frame_pair.cc",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/object_tracking/image_neon.cc",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/object_tracking/keypoint_detector.cc",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/object_tracking/logging.cc",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/object_tracking/object_detector.cc",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/object_tracking/object_tracker.cc",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/object_tracking/object_tracker_jni.cc",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/object_tracking/optical_flow.cc",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/object_tracking/time_log.cc",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/object_tracking/tracked_object.cc",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/object_tracking/utils_neon.cc",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/rgb2yuv.cc",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/tensorflow_demo/yuv2rgb.cc",
+					"workingDirectory" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/build/intermediates/cmake/release/obj/armeabi-v7a/libtensorflow_demo.so",
+			"toolchain" : "16740414696521204118"
+		}
+	},
+	"toolchains" : 
+	{
+		"16740414696521204118" : 
+		{
+			"cCompilerExecutable" : "/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

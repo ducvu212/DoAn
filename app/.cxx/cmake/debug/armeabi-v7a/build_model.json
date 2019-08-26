@@ -1,0 +1,67 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn",
+      "sdkFolder": "/Users/tran.ngoc.nam/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app",
+      "makeFile": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/src/main/jni/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/.cxx",
+      "cxxFolder": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx",
+      "ndkFolder": "/Users/tran.ngoc.nam/Library/Android/sdk/ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 24,
+  "cxxBuildFolder": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/debug/armeabi-v7a",
+  "jsonFile": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cxx/debug/armeabi-v7a",
+  "objFolder": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/build/intermediates/cmake/debug/obj/armeabi-v7a",
+  "buildCommandFile": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/debug/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/debug/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/debug/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cxx/debug/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cxx/debug/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cxx/debug/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cxx/debug/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/.cxx/cmake/debug/armeabi-v7a/compile_commands.json"
+}

@@ -126,7 +126,7 @@ public class Classifier {
 
     private Classifier() {}
 
-    static Classifier getInstance (AssetManager assetManager,
+    public static Classifier getInstance (AssetManager assetManager,
                                    int inputHeight,
                                    int inputWidth) throws Exception {
         if (classifier != null) return classifier;
@@ -142,7 +142,7 @@ public class Classifier {
         return classifier;
     }
 
-    CharSequence[] getClassNames() {
+    public CharSequence[] getClassNames() {
         CharSequence[] cs = new CharSequence[classNames.size() + 1];
         int idx = 1;
 
@@ -154,7 +154,7 @@ public class Classifier {
         return cs;
     }
 
-    List<Recognition> recognizeImage(Bitmap bitmap, Matrix matrix) {
+    public List<Recognition> recognizeImage(Bitmap bitmap, Matrix matrix) {
         synchronized (this) {
             Pair faces[] = mtcnn.detect(bitmap);
 
@@ -187,7 +187,7 @@ public class Classifier {
 
     }
 
-    void updateData(int label, ContentResolver contentResolver, ArrayList<Uri> uris) throws Exception {
+    public void updateData(int label, ContentResolver contentResolver, ArrayList<Uri> uris) throws Exception {
         synchronized (this) {
             ArrayList<float[]> list = new ArrayList<>();
 
@@ -217,7 +217,7 @@ public class Classifier {
         }
     }
 
-    int addPerson(String name) {
+    public int addPerson(String name) {
         FileUtils.appendText(name, FileUtils.LABEL_FILE);
         classNames.add(name);
 
@@ -234,14 +234,14 @@ public class Classifier {
         return bitmap;
     }
 
-    void enableStatLogging(final boolean debug){
+    public  void enableStatLogging(final boolean debug){
     }
 
-    String getStatString() {
+    public String getStatString() {
         return faceNet.getStatString();
     }
 
-    void close() {
+    public void close() {
         mtcnn.close();
         faceNet.close();
     }
