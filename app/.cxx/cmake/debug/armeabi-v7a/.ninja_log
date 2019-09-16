@@ -1,0 +1,23 @@
+# ninja log v5
+6	930	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/libsvm/svm-scale.cpp.o	5daad9899e6a32ae
+10	4995	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/libsvm/svm-train.cpp.o	3e62fb64ecf082ee
+4	5062	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/libsvm/svm-predict.cpp.o	e63ff1b7809de092
+3	5347	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/jnilibsvm.cpp.o	72cbc9f697bd87af
+1	5961	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/common.cpp.o	c87e2a2cbd57c829
+12	6008	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/libsvm/svm.cpp.o	9be6e3c8611339c0
+6008	6289	0	/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libjnilibsvm.so	7d107559e149cfaf
+0	418	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/imageutils_jni.cc.o	7b3d238eb81e3777
+1	3309	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/frame_pair.cc.o	52d292aa92143668
+2	3724	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/image_neon.cc.o	2f9d62c0e3a76cb9
+9	3943	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/object_detector.cc.o	48243a19a9dce35f
+3943	4005	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/time_log.cc.o	bdee9ed1e12d880b
+4	4208	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/keypoint_detector.cc.o	67f6809636d06894
+8	4735	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/logging.cc.o	4970832ec60348c6
+4735	4822	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/rgb2yuv.cc.o	a1ee35e9abd5cf85
+4822	4935	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/yuv2rgb.cc.o	475e879420e8693e
+3724	8429	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/optical_flow.cc.o	c498288fb8318e93
+4208	8498	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/utils_neon.cc.o	3d8fe332638dced9
+4005	9171	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/tracked_object.cc.o	bc0dad37b43b6f8f
+3309	9236	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/object_tracker_jni.cc.o	bbc64e599014b36f
+421	9853	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/object_tracker.cc.o	2ee1d2428d41c385
+9853	10610	0	/Users/tran.ngoc.nam/Desktop/Duc/DoAn/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libtensorflow_demo.so	41fa60f445c6b66

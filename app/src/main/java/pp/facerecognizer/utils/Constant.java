@@ -11,6 +11,10 @@ public final class Constant {
 
     public static final String BASE_URL = "https://cauhoi-api.sachmem.vn/api/";
 
+    //API
+
+    public static final String LOGIN = "users/loginStudent";
+
     //Logging
     public static final String LOGGING_REQUEST = "Request";
     public static final String LOGGING_RESPONE = "Respone";
