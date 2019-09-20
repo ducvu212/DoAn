@@ -31,7 +31,9 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void init() {
-        mLoginViewModel = new LoginViewModel(new LoginRepository(UserRemoteDataSource.getsInstance(), UserLocalDataSource.getsInstance(this)));
+        mLoginViewModel =
+                new LoginViewModel(this, new LoginRepository(UserRemoteDataSource.getsInstance(),
+                        UserLocalDataSource.getsInstance(this)));
         mLoginViewModel.setSchedulerProvider(SchedulerProvider.getInstance());
         mActivityLoginBinding = DataBindingUtil.setContentView(this, R.layout.activity_login);
         mActivityLoginBinding.setViewModel(mLoginViewModel);
